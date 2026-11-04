@@ -1,0 +1,15 @@
+{
+  "command": "OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONPATH=src python -m retrievalobs.experiment --out runs/reference",
+  "date": "2026-11-04",
+  "quick": false,
+  "seconds": 1.4103414160199463,
+  "environment": "environment.json",
+  "metrics_sha256": "b00dd9c316d2320408bc6b78ca403834bebbb28809d120eb070e4f2684c1f73d",
+  "source_sha256": {
+    "src/retrievalobs/__init__.py": "fb2b77ddf0326425b82c5a303655927272c81f1d210df8e8793a4407ef7fcf24",
+    "src/retrievalobs/core.py": "e016fe590db1a44ec820698744a8533fcbe156014ab814aff4e25f3b77173be9",
+    "src/retrievalobs/experiment.py": "cf70b536e111ad3e25aaa713db4a220849b5a590e433621a2ca0ac7cc7bfb320",
+    "src/retrievalobs/visual.py": "54ab848a43f003d753a12fd263d15d9c7d8a2452d655fe2b9195cf22f20f122b",
+    "src/retrievalobs/data.py": "1617ed84c86d5135ff4798a897e00375e5deac66b71f3010e2144536e8b32a87"
+  }
+}
